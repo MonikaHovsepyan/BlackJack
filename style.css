@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blocker {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 77;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #012701;
+    opacity: 0.99;
+}
+
+.blocker div {
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#results {
+    background-color: #013b01;
+    font-size: 25px;
+}
+
+.blackJack {
+    font-size: 50px;
+    height: 100vh;
+}
+
+.table {
+    min-height: 100vh;
+    background-color: #008000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.cardsColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card {
+    margin: 10px;
+    width: 180px;
+    height: 250px;
+    background-color: #cccccc;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgb(159, 236, 159);
+
+}
+
+#firstPlayerScore{
+    font-size: 25px;
+}
+
+#secondPlayerScore{
+    font-size: 25px;
+}
+
+#finish1 {
+    font-size: 15px;
+    border-radius: 10px;
+    width: 300px;
+    height: 35px;
+    cursor: pointer;
+    background-color: rgb(159, 236, 159);
+}
+
+#finish1:hover {
+    background-color: rgb(13, 121, 13);
+}
+
+#finish2 {
+    font-size: 15px;
+    border-radius: 10px;
+    width: 300px;
+    height: 35px;
+    cursor: pointer;
+    background-color: rgb(159, 236, 159);
+ }
+ 
+ #finish2:hover {
+    background-color: rgb(13, 121, 13);
+}
+
+#newGame {
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(54, 181, 54);
+}
+
+#newGame:hover {
+    background-color: rgb(13, 121, 13);
+}
+
